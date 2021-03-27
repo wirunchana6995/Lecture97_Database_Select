@@ -1,0 +1,16 @@
+﻿<Window x:Class="seting_sqlite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:seting_sqlite"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="showAllBtn" Content="Show All" HorizontalAlignment="Left" Margin="173,135,0,0" VerticalAlignment="Top" Width="75" Click="showAllBtn_Click"/>
+        <Label Content="Add Data" HorizontalAlignment="Left" Margin="75,59,0,0" VerticalAlignment="Top" Height="24" Width="216"/>
+        <TextBox x:Name="inputTxt" HorizontalAlignment="Left" Height="25" Margin="75,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="75,135,0,0" VerticalAlignment="Top" Width="75" Click="AddButton_Click"/>
+
+    </Grid>
+</Window>
